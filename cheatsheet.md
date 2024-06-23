@@ -1,8 +1,10 @@
 # AWS Cheat Sheet
-_written by orizz for personal usage_<br>
-_Using Linux Machine : Ubuntu 20.0.4_
+_Written by orizz for personal usage_<br>
+_Using Linux Machine : Ubuntu 20.0.4_<br>
+_Last update: 1:54 AM Jun 24_<br>
+_Last Lesson: [48. EC2 Summary](https://qttechacademy.udemy.com/course/aws-certified-cloud-practitioner-new/learn/lecture/20260612#overview)_
 
-[Course Link](https://qttechacademy.udemy.com/course/aws-certified-cloud-practitioner-new/learn/lecture/20055746?start=135#overview)
+[Course Link](https://qttechacademy.udemy.com/course/aws-certified-cloud-practitioner-new/learn/lecture/20055746?start=135#overview)<br>
 [Qualitest Excel with qcraft Labs](https://ibase1-my.sharepoint.com/:x:/r/personal/sharon_baruch_qualitestgroup_com/_layouts/15/doc2.aspx?sourcedoc=%7BE439253B-36E5-4F4A-8934-2BCD3331EE11%7D&file=AWS-%20Cloud%20Practitioner.xlsx&action=default&mobileredirect=true)
 
 ## IAM:
