@@ -19,8 +19,8 @@ _Last Lesson: [48. EC2 Summary](https://qttechacademy.udemy.com/course/aws-certi
         {
             "Path": "/",
             "UserName": "User",
-            "UserId": "AIDAS7JBZ3JKZ7C5SNGXB",
-            "Arn": "arn:aws:iam::204618717781:user/Ori",
+            "UserId": "AAAAAAAAAAAAAAAAAAAA",
+            "Arn": "arn:aws:iam::ACOUNTID:user/Ori",
             "CreateDate": "2024-06-17T20:06:28+00:00",
             "PasswordLastUsed": "2024-06-23T20:14:13+00:00"
         },
