@@ -60,3 +60,38 @@ in your instaces page select the required instance and click on:<br>
 Actions > Security > Modify IAM role
 
     Then add your desired role for your instance, running the command again should work now.
+
+3. To find which avaliablity zone the EC2 Instance is on, click on the instance in the dashboard. under category **Networking** check out avaliablity zone - for example eu-west-1**b** - that matter for future 
+
+## EC2 Instance Storage
+### EBS Volume - Elastic Block Store
+details:
+- network drive that can be attached to EC2 Instance
+- can be mounted to one instance at a time
+- bound to avaliablity zone
+- multipule EBS Volume can be attached to EC2 Instance - EBS Multi-Attach
+- Instance can also be "free" and not connected at all, on demand attachment. 
+
+1. when opening a new volume make sure it's in the same avaliablity zone (read EC2 - No.3 to find out how.)
+
+### EBS Snapshot
+- make a backup of an EBS Volume
+- can copy across AZ(avaliablity zone)/ Region
+
+for example:
+
+|us-east-1a|EBS Snapshot|us-east-1b|
+|----------|------------|-----------|
+|EBS - 50 GB | Snapshot-> EBS -> restore | EBS - 50 GB|
+
+#### Snapshot types:
+- Standard - the default value. 
+- Archive - cheaper, longer to get the data from. 24h to 72h of restoring the archive.
+- Recycle Bin - setup rules for deleted snapshots, that can be recoverd after accidental deletion. save data for a period of time, after being deleted.
+
+#### Create a snapshot 
+- EC2 Instances>Actions>Create a snapshot
+- EC2 Elastic Block Store> Create a snapshot
+
+### AMI - Amzon Machine Image
+AMI Are customization of an EC2 instance
